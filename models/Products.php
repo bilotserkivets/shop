@@ -6,7 +6,7 @@ class Products {
     //Соединение с базой данных
     $db = Db::getConnection();
     
-    $result = $db->query("SELECT * FROM products WHERE new=0");
+    $result = $db->query("SELECT * FROM products ORDER BY datetime DESC");
     
     $newProducts = [];
     $i = 0;
@@ -22,5 +22,27 @@ class Products {
         $i++;
     }
     return $newProducts;
+    }
+    
+    public static function getRecomendedProducts(){
+    //Соединение с базой данных
+    $db = Db::getConnection();
+    
+    $result = $db->query("SELECT * FROM products WHERE recomended=1 ORDER BY datetime DESC");
+    
+    $recProducts = [];
+    $i = 0;
+    
+    while($row = $result->fetch()) {
+        $recProducts[$i]['id'] = $row['id'];
+        $recProducts[$i]['title'] = $row['title'];
+        $recProducts[$i]['price'] = $row['price'];
+        $recProducts[$i]['mini_description'] = $row['mini_description'];
+        $recProducts[$i]['description'] = $row['description'];
+        $recProducts[$i]['image'] = $row['image'];
+        $recProducts[$i]['brand'] = $row['brand'];
+        $i++;
+    }
+    return $recProducts;
     }
 }

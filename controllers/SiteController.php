@@ -13,6 +13,8 @@ class SiteController {
         
         $newProducts = Products::getNewProducts();
         
+        $recProducts = Products::getRecomendedProducts();
+        
         require_once(ROOT.'/views/site/index.php');
     }
 }
