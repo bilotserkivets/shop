@@ -2,6 +2,7 @@
 
 class Products {
     
+    //Получение списка товаров
     public static function getNewProducts(){
     //Соединение с базой данных
     $db = Db::getConnection();
@@ -24,6 +25,7 @@ class Products {
     return $newProducts;
     }
     
+    // Получение списка рекомендованных товаров
     public static function getRecomendedProducts(){
     //Соединение с базой данных
     $db = Db::getConnection();
@@ -44,5 +46,27 @@ class Products {
         $i++;
     }
     return $recProducts;
+    }
+    
+    // Полученине списка ТОП товаров
+    public static function getLeaderProducts() {
+        //Соединение с базой данных
+        $db = Db::getConnection();
+        
+        $result = $db->query("SELECT *FROM products ORDER BY leader DESC");
+        
+        $leaderProducts = [];
+        $i = 0;
+        while($row = $result->fetch()){
+            $leaderProducts[$i]['id'] = $row['id'];
+            $leaderProducts[$i]['title'] = $row['title'];
+            $leaderProducts[$i]['price'] = $row['price'];
+            $leaderProducts[$i]['mini_description'] = $row['mini_description'];
+            $leaderProducts[$i]['description'] = $row['description'];
+            $leaderProducts[$i]['image'] = $row['image'];
+            $leaderProducts[$i]['brand'] = $row['brand'];
+        $i++;
+        }
+        return $leaderProducts;
     }
 }
