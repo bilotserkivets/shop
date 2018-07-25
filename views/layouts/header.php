@@ -425,8 +425,8 @@
         <div class="row">
             <div class="col-sm-12 col-md-3">
                 <ul class="links list-unstyled"> 
-                    <?php foreach($categoryMobile as $mobile): ?>
-                    <li><a href="#"><?php echo $mobile['brand']; ?></a></li>
+                    <?php foreach($categoryNotebook as $notebook): ?>
+                    <li><a href="#"><?php echo $notebook['brand']; ?></a></li>
                     <?php endforeach;?>
                        
                 </ul>
@@ -477,7 +477,7 @@
 <!-- ================================== TOP NAVIGATION : END ================================== -->
 			<!-- ============================================== SPECIAL OFFER ============================================== -->
 
-<div class="sidebar-widget outer-bottom-small wow fadeInUp">
+<!--<div class="sidebar-widget outer-bottom-small wow fadeInUp">
 	<h3 class="section-title">Особлива пропозиція</h3>
 	<div class="sidebar-widget-body outer-top-xs">
 		<div class="owl-carousel sidebar-carousel special-offer custom-carousel owl-theme outer-top-xs">
@@ -493,14 +493,14 @@
 						<img data-echo="/template/assets/images/products/sm1.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 											<div class="tag tag-micro hot">
 							<span>hot</span>
 						</div>
 					
 					
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Simple Product</a></h3>
@@ -509,12 +509,12 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        							<div class="product">
@@ -527,11 +527,11 @@
 						<img data-echo="/template/assets/images/products/sm2.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 					
 					
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Canon EOS 60D</a></h3>
@@ -540,12 +540,12 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        							<div class="product">
@@ -558,14 +558,14 @@
 						<img data-echo="/template/assets/images/products/sm3.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 					
 											<div class="tag tag-micro new">
 							<span>new</span>
 						</div>
 					
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Sony Camera X30</a></h3>
@@ -574,12 +574,12 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        		        	</div>
@@ -596,11 +596,11 @@
 						<img data-echo="/template/assets/images/products/sm1.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 					
 					
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Simple Product</a></h3>
@@ -609,12 +609,12 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        							<div class="product">
@@ -627,14 +627,14 @@
 						<img data-echo="/template/assets/images/products/sm2.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 					
 					
 											<div class="tag tag-micro sale">
 							<span>sale</span>
 						</div>
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Canon EOS 60D</a></h3>
@@ -643,12 +643,12 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        							<div class="product">
@@ -661,11 +661,11 @@
 						<img data-echo="/template/assets/images/products/sm3.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 					
 					
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Sony Camera X30</a></h3>
@@ -674,12 +674,12 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        		        	</div>
@@ -696,14 +696,14 @@
 						<img data-echo="/template/assets/images/products/sm1.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 					
 											<div class="tag tag-micro new">
 							<span>new</span>
 						</div>
 					
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Simple Product</a></h3>
@@ -712,12 +712,12 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        							<div class="product">
@@ -730,14 +730,14 @@
 						<img data-echo="/template/assets/images/products/sm2.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 											<div class="tag tag-micro hot">
 							<span>hot</span>
 						</div>
 					
 					
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Canon EOS 60D</a></h3>
@@ -746,12 +746,12 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        							<div class="product">
@@ -764,11 +764,11 @@
 						<img data-echo="/template/assets/images/products/sm3.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 					
 					
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Sony Camera X30</a></h3>
@@ -777,19 +777,19 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        		        	</div>
 	        </div>
 	    		    </div>
-	</div><!-- /.sidebar-widget-body -->
-</div><!-- /.sidebar-widget -->
+	</div> /.sidebar-widget-body 
+</div> /.sidebar-widget -->
 <!-- ============================================== SPECIAL OFFER : END ============================================== -->
 			<!-- ============================================== PRODUCT TAGS ============================================== -->
 <div class="sidebar-widget product-tag wow fadeInUp">
@@ -811,7 +811,7 @@
 <!-- ============================================== PRODUCT TAGS : END ============================================== -->
 			<!-- ============================================== SPECIAL DEALS ============================================== -->
 
-<div class="sidebar-widget outer-bottom-small wow fadeInUp">
+<!--<div class="sidebar-widget outer-bottom-small wow fadeInUp">
 	<h3 class="section-title">Спеціальна пропозиція</h3>
 	<div class="sidebar-widget-body outer-top-xs">
 		<div class="owl-carousel sidebar-carousel special-offer custom-carousel owl-theme outer-top-xs">
@@ -827,14 +827,14 @@
 						<img data-echo="/template/assets/images/products/sm4.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 											<div class="tag tag-micro hot">
 							<span>hot</span>
 						</div>
 					
 					
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Simple Product</a></h3>
@@ -843,12 +843,12 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        							<div class="product">
@@ -861,11 +861,11 @@
 						<img data-echo="/template/assets/images/products/sm5.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 					
 					
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Simple Product</a></h3>
@@ -874,12 +874,12 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        							<div class="product">
@@ -892,14 +892,14 @@
 						<img data-echo="/template/assets/images/products/sm6.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 					
 											<div class="tag tag-micro new">
 							<span>new</span>
 						</div>
 					
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Sony Camera X30</a></h3>
@@ -908,12 +908,12 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        		        	</div>
@@ -930,11 +930,11 @@
 						<img data-echo="/template/assets/images/products/sm1.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 					
 					
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Sony Ericson Vaga</a></h3>
@@ -943,12 +943,12 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        							<div class="product">
@@ -961,14 +961,14 @@
 						<img data-echo="/template/assets/images/products/sm2.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 					
 					
 											<div class="tag tag-micro sale">
 							<span>sale</span>
 						</div>
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Sony Ericson Vaga</a></h3>
@@ -977,12 +977,12 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        							<div class="product">
@@ -995,11 +995,11 @@
 						<img data-echo="/template/assets/images/products/sm3.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 					
 					
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Sony Ericson Vaga</a></h3>
@@ -1008,12 +1008,12 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        		        	</div>
@@ -1030,14 +1030,14 @@
 						<img data-echo="/template/assets/images/products/sm5.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 					
 											<div class="tag tag-micro new">
 							<span>new</span>
 						</div>
 					
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Sony Ericson Vaga</a></h3>
@@ -1046,12 +1046,12 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        							<div class="product">
@@ -1064,14 +1064,14 @@
 						<img data-echo="/template/assets/images/products/sm2.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 											<div class="tag tag-micro hot">
 							<span>hot</span>
 						</div>
 					
 					
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Sony Ericson Vaga</a></h3>
@@ -1080,12 +1080,12 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        							<div class="product">
@@ -1098,11 +1098,11 @@
 						<img data-echo="/template/assets/images/products/sm1.jpg" src="/template/assets/images/blank.gif" alt="">
 						<div class="zoom-overlay"></div>
 					</a>					
-				</div><!-- /.image -->
+				</div> /.image 
 					
 					
-								</div><!-- /.product-image -->
-		</div><!-- /.col -->
+								</div> /.product-image 
+		</div> /.col 
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Sony Ericson Vaga</a></h3>
@@ -1111,22 +1111,22 @@
 				<span class="price">
 					$650.99				</span>
 				
-			</div><!-- /.product-price -->
+			</div> /.product-price 
 				<div class="action"><a href="#" class="lnk btn btn-primary">Купити</a></div>
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.product-micro-row -->
-</div><!-- /.product-micro -->
+		</div> /.col 
+	</div> /.product-micro-row 
+</div> /.product-micro 
       
 						</div>
 		        		        	</div>
 	        </div>
 	    		    </div>
-	</div><!-- /.sidebar-widget-body -->
-</div><!-- /.sidebar-widget -->
+	</div> /.sidebar-widget-body 
+</div> /.sidebar-widget -->
 <!-- ============================================== SPECIAL DEALS : END ============================================== -->
 			<!-- ============================================== NEWSLETTER ============================================== -->
-<div class="sidebar-widget newsletter wow fadeInUp outer-bottom-small">
+<!--<div class="sidebar-widget newsletter wow fadeInUp outer-bottom-small">
 	<h3 class="section-title">Newsletters</h3>
 	<div class="sidebar-widget-body outer-top-xs">
 		<p>Sign Up for Our Newsletter!</p>
@@ -1137,11 +1137,11 @@
 			  </div>
 			<button class="btn btn-primary">Subscribe</button>
 		</form>
-	</div><!-- /.sidebar-widget-body -->
-</div><!-- /.sidebar-widget -->
+	</div> /.sidebar-widget-body 
+</div> /.sidebar-widget -->
 <!-- ============================================== NEWSLETTER: END ============================================== -->
 			<!-- ============================================== HOT DEALS ============================================== -->
-<div class="sidebar-widget hot-deals wow fadeInUp">
+<!--<div class="sidebar-widget hot-deals wow fadeInUp">
 	<h3 class="section-title">hot deals</h3>
 	<div class="owl-carousel sidebar-carousel custom-carousel owl-theme outer-top-xs">
 		
@@ -1181,7 +1181,7 @@
 									</div>
 								</div>
 							</div>
-						</div><!-- /.hot-deal-wrapper -->
+						</div> /.hot-deal-wrapper 
 
 						<div class="product-info text-left m-t-20">
 							<h3 class="name"><a href="detail.html">Apple Iphone 5s 32GB Gold</a></h3>
@@ -1194,9 +1194,9 @@
 									
 							    <span class="price-before-discount">$800.00</span>					
 							
-							</div><!-- /.product-price -->
+							</div> /.product-price 
 							
-						</div><!-- /.product-info -->
+						</div> /.product-info 
 
 						<div class="cart clearfix animate-effect">
 							<div class="action">
@@ -1209,8 +1209,8 @@
 															
 								</div>
 								
-							</div><!-- /.action -->
-						</div><!-- /.cart -->
+							</div> /.action 
+						</div> /.cart 
 					</div>	
 					</div>		        
 													<div class="item">
@@ -1249,7 +1249,7 @@
 									</div>
 								</div>
 							</div>
-						</div><!-- /.hot-deal-wrapper -->
+						</div> /.hot-deal-wrapper 
 
 						<div class="product-info text-left m-t-20">
 							<h3 class="name"><a href="detail.html">Apple Iphone 5s 32GB Gold</a></h3>
@@ -1262,9 +1262,9 @@
 									
 							    <span class="price-before-discount">$800.00</span>					
 							
-							</div><!-- /.product-price -->
+							</div> /.product-price 
 							
-						</div><!-- /.product-info -->
+						</div> /.product-info 
 
 						<div class="cart clearfix animate-effect">
 							<div class="action">
@@ -1277,8 +1277,8 @@
 															
 								</div>
 								
-							</div><!-- /.action -->
-						</div><!-- /.cart -->
+							</div> /.action 
+						</div> /.cart 
 					</div>	
 					</div>		        
 													<div class="item">
@@ -1317,7 +1317,7 @@
 									</div>
 								</div>
 							</div>
-						</div><!-- /.hot-deal-wrapper -->
+						</div> /.hot-deal-wrapper 
 
 						<div class="product-info text-left m-t-20">
 							<h3 class="name"><a href="detail.html">Apple Iphone 5s 32GB Gold</a></h3>
@@ -1330,9 +1330,9 @@
 									
 							    <span class="price-before-discount">$800.00</span>					
 							
-							</div><!-- /.product-price -->
+							</div> /.product-price 
 							
-						</div><!-- /.product-info -->
+						</div> /.product-info 
 
 						<div class="cart clearfix animate-effect">
 							<div class="action">
@@ -1345,17 +1345,17 @@
 															
 								</div>
 								
-							</div><!-- /.action -->
-						</div><!-- /.cart -->
+							</div> /.action 
+						</div> /.cart 
 					</div>	
 					</div>		        
 						
 	    
-    </div><!-- /.sidebar-widget -->
-</div>
+    </div> /.sidebar-widget 
+</div>-->
 <!-- ============================================== HOT DEALS: END ============================================== -->
 			<!-- ============================================== COLOR============================================== -->
-<div class="sidebar-widget  wow fadeInUp outer-top-vs ">
+<!--<div class="sidebar-widget  wow fadeInUp outer-top-vs ">
 	<div id="advertisement" class="advertisement">
         <div class="item bg-color">
             <div class="container-fluid">
@@ -1368,13 +1368,13 @@
                     <div class="excerpt">
                         on selected items
                     </div>
-                </div><!-- /.caption -->
-            </div><!-- /.container-fluid -->
-        </div><!-- /.item -->
+                </div> /.caption 
+            </div> /.container-fluid 
+        </div> /.item 
 
         <div class="item" style="background-image: url('/template/assets/images/advertisement/1.jpg');">
             
-        </div><!-- /.item -->
+        </div> /.item 
 
         <div class="item bg-color">
             <div class="container-fluid">
@@ -1387,12 +1387,12 @@
                     <div class="excerpt fadeInDown-2">
                         on selected items
                     </div>
-                </div><!-- /.caption -->
-            </div><!-- /.container-fluid -->
-        </div><!-- /.item -->
+                </div> /.caption 
+            </div> /.container-fluid 
+        </div> /.item 
 
-    </div><!-- /.owl-carousel -->
-</div>
+    </div> /.owl-carousel 
+</div>-->
     
 <!-- ============================================== COLOR: END ============================================== -->
 

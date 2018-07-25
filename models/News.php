@@ -27,14 +27,15 @@ class News {
       //запрос к базе данных
         $db = Db::getConnection();
         
-        $result = $db->query('SELECT id, title, date, short_content FROM news ORDER BY date DESC LIMIT 10');
+        $result = $db->query("SELECT id, title, text, DATE_FORMAT(date, '%d.%m.%Y') AS date, image FROM news ORDER BY date DESC LIMIT 5");
         
         $i = 0;
         while($row = $result->fetch()) {
             $newsList[$i]['id'] = $row['id'];
             $newsList[$i]['title'] = $row['title'];
+            $newsList[$i]['text'] = $row['text'];
             $newsList[$i]['date'] = $row['date'];
-            $newsList[$i]['short_content'] = $row['short_content'];
+            $newsList[$i]['image'] = $row['image'];
             $i++;
         }
         
